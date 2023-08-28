@@ -6,7 +6,47 @@
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
 
 .navbar-toggler {
   border: none;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+}
+
+.bright-future-title {
+  color: black;
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 0.9em;
+  font-family: "Inter", sans-serif;
+}
+
+.read-more-btn {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  background: rgb(241, 94, 80);
+  border: none;
+  padding: 10px 25px;
+  letter-spacing: 0.3em;
+}
+
+.new-title {
+  color: rgb(233, 171, 83);
+}
+.new-content {
+  background: rgb(0, 0, 26);
+}
+.new-content h5 {
+  color: rgb(255, 253, 250);
+}
+.new-content p {
+  color: rgb(155, 155, 155);
 }
