@@ -1,11 +1,3 @@
-.attribution {
-  font-size: 20px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-}
 body {
   font-family: "Inter", sans-serif;
 }
@@ -23,19 +15,8 @@ p {
 .bright-future-title {
   color: black;
   font-size: 58px;
-  font-weight: 800;
-  line-height: 0.9em;
-  font-family: "Inter", sans-serif;
-}
-
-.read-more-btn {
-  font-size: 12px;
-  font-weight: 500;
-  color: white;
-  background: rgb(241, 94, 80);
-  border: none;
-  padding: 10px 25px;
-  letter-spacing: 0.3em;
+  font-weight: 900;
+  line-height: 1em;
 }
 
 .new-title {
@@ -44,9 +25,88 @@ p {
 .new-content {
   background: rgb(0, 0, 26);
 }
-.new-content h5 {
-  color: rgb(255, 253, 250);
-}
+
 .new-content p {
-  color: rgb(155, 155, 155);
+  color: rgb(125, 125, 125);
+  font-size: 15px;
+  margin: 20px auto;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.new-content a {
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(255, 253, 250);
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.new-content a:hover {
+  color: rgb(233, 171, 83);
+}
+
+.offcanvas-body li a {
+  color: rgb(0, 0, 26);
+}
+.offcanvas-body li a:hover {
+  color: rgb(241, 94, 80);
+}
+
+.attribution {
+  font-size: 20px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.retro-content {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.retro-text {
+  font-size: 15px;
+  padding: 10px 22px;
+  text-align: justify;
+}
+
+.retro-text h2 {
+  color: rgb(147, 147, 147);
+  opacity: 0.7;
+}
+.retro-text a {
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+.retro-text a:hover {
+  color: #f15e50;
+}
+
+.retro-text p {
+  font-size: 12px;
+  opacity: 0.8;
+  margin: 12px 0;
+}
+
+#read-more-btn {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  background: #f15e50;
+  border: none;
+  padding: 12px 25px;
+  letter-spacing: 0.3em;
+  transition: all 200ms ease-in-out;
+}
+#read-more-btn :hover {
+  color: white;
+  background-color: rgb(0, 0, 26);
 }
