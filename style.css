@@ -39,7 +39,7 @@ p {
 .new-content p {
   color: var(--paragraph-color);
   font-size: 13px;
-  margin: 25px auto;
+  margin: 24px auto;
   line-height: 1.5em;
   text-align: justify;
 }
