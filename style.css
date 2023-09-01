@@ -74,16 +74,13 @@ p {
 
 .retro-content {
   display: flex;
-
   align-items: center;
-
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .retro-text {
   font-size: 15px;
   padding: 10px 22px;
-  text-align: justify;
 }
 
 .retro-text h2 {
