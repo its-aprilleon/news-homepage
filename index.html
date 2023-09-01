@@ -31,9 +31,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg my-5">
-      <div class="container pe-0">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg my-4">
+      <div class="container">
+        <a class="navbar-brand" href="/">
           <img src="assets/images/logo.svg" alt="" class="logo-img" />
         </a>
         <a
@@ -59,12 +59,12 @@
             </a>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 p-0">
+            <ul class="navbar-nav justify-content-end flex-grow-1">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">New</a>
+                <a class="nav-link" href="#new-title-link">New</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Popular</a>
@@ -73,7 +73,7 @@
                 <a class="nav-link" href="#">Trending</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link pe-0" href="#">Categories</a>
+                <a class="nav-link" href="#">Categories</a>
               </li>
             </ul>
           </div>
@@ -81,20 +81,26 @@
       </div>
     </nav>
 
-    <div class="container d-flex mb-5">
-      <div class="row d-flex">
-        <div class="col-8 pe-4">
+    <div class="container d-flex mb-3">
+      <div class="row">
+        <div class="col-lg-8 px-3">
           <img
             src="assets/images/image-web-3-desktop.jpg"
-            class="img-fluid"
+            class="img-fluid d-lg-block d-none"
             alt=""
           />
+          <img
+            src="assets/images/image-web-3-mobile.jpg"
+            alt=""
+            class="img-fluid d-block d-md-none"
+          />
+
           <div class="row mt-4">
-            <div class="col-6">
+            <div class="col-md-6">
               <h1 class="bright-future-title">The Bright Future of Web 3.0?</h1>
             </div>
-            <div class="read-more-content col-6">
-              <p class="mb-5">
+            <div class="read-more-content col-md-6">
+              <p class="read-more-paragraph mb-md-4">
                 We dive into the next evolution of the web that claims to put
                 the power of the platforms back into the hands of the people.
                 But is it really fulfilling its promise?
@@ -104,84 +110,89 @@
             </div>
           </div>
         </div>
-        <div class="new-content col-4 px-4 text-light">
-          <h1 class="new-title my-4">New</h1>
-          <div class="row">
-            <div class="col-12">
-              <a href="#">Hydrogen VS Electric Cars</a>
-              <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-              <hr />
-            </div>
-            <div class="col-12">
-              <a href="#">The Downsides of AI Artistry</a>
-              <p>
-                What are the possible adverse effects of on-demand AI image
-                generation?
-              </p>
 
-              <hr />
-            </div>
-            <div class="col-12">
-              <a href="#">Is VC Funding Drying Up?</a>
-              <p>
-                Private funding by VC firms is down 50% YOY. We take a look at
-                what that means.
-              </p>
+        <div class="new-content col-lg-4 px-3 text-light">
+          <div class="container new-content-background px-4">
+            <h1 class="new-title my-0 py-4" id="new-title-link">New</h1>
+            <div class="row">
+              <div class="col-md-12">
+                <a href="#">Hydrogen VS Electric Cars</a>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                <hr />
+              </div>
+              <div class="col-md-12">
+                <a href="#">The Downsides of AI Artistry</a>
+                <p>
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+
+                <hr />
+              </div>
+              <div class="col-md-12">
+                <a href="#">Is VC Funding Drying Up?</a>
+                <p>
+                  Private funding by VC firms is down 50% YOY. We take a look at
+                  what that means.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container d-flex">
-      <div class="row">
-        <div class="retro-content col">
-          <div class="retro-img">
-            <img
-              src="/assets/images/image-retro-pcs.jpg"
-              class=""
-              alt=""
-              width="100"
-            />
-          </div>
-          <div class="retro-text">
-            <h2>01</h2>
+    <div class="retro-content-detail mt-5">
+      <div class="container d-flex">
+        <div class="row">
+          <div class="retro-content col-md-4">
+            <div class="retro-img">
+              <img
+                src="/assets/images/image-retro-pcs.jpg"
+                class=""
+                alt=""
+                width="100"
+              />
+            </div>
+            <div class="retro-text">
+              <h2>01</h2>
 
-            <a href="#">Reviving Retro PCs</a>
-            <p>What happens when old PCs are given modern upgrades?</p>
+              <a href="#">Reviving Retro PCs</a>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
           </div>
-        </div>
 
-        <div class="retro-content col">
-          <div class="retro-img">
-            <img
-              src="/assets/images/image-top-laptops.jpg"
-              class=""
-              alt=""
-              width="100"
-            />
-          </div>
-          <div class="retro-text">
-            <h2>02</h2>
+          <div class="retro-content col-md-4">
+            <div class="retro-img">
+              <img
+                src="/assets/images/image-top-laptops.jpg"
+                class=""
+                alt=""
+                width="100"
+              />
+            </div>
+            <div class="retro-text">
+              <h2>02</h2>
 
-            <a href="#">Top 10 Laptops of 2022</a>
-            <p>Our best picks for various needs and budgets.</p>
+              <a href="#">Top 10 Laptops of 2022</a>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
           </div>
-        </div>
-        <div class="retro-content col pe-4">
-          <div class="retro-img">
-            <img
-              src="/assets/images/image-gaming-growth.jpg"
-              class=""
-              alt=""
-              width="100"
-            />
-          </div>
-          <div class="retro-text">
-            <h2>03</h2>
+          <div class="retro-content col-md-4">
+            <div class="retro-img">
+              <img
+                src="/assets/images/image-gaming-growth.jpg"
+                class=""
+                alt=""
+                width="100"
+              />
+            </div>
+            <div class="retro-text">
+              <h2>03</h2>
 
-            <a href="#">The Growth of Gaming</a>
-            <p>How the pandemic has sparked fresh opportunities.</p>
+              <a href="#">The Growth of Gaming</a>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
           </div>
         </div>
       </div>
