@@ -127,7 +127,7 @@ p {
   letter-spacing: 0.3em;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 700px) {
   .read-more-content {
     margin-bottom: 50px;
   }
