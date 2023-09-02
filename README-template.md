@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://64edfe2e3e31ff00a1ca5b95--thriving-capybara-13b85c.netlify.app/)
+- Solution URL:[](https://github.com/its-aprilleon/news-homepage)
+- Live Site URL:[](https://thriving-capybara-13b85c.netlify.app/)
 
 ## My process
 
