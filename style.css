@@ -7,8 +7,13 @@
   --grayish-blue-color: hsl(233, 8%, 79%);
 }
 
+@font-face {
+  font-family: InterFont;
+  src: url(/assets/fonts/static/Inter-Regular.ttf);
+  font-weight: 6em;
+}
 body {
-  font-family: "Inter", sans-serif;
+  font-family: InterFont;
 }
 
 .navbar-toggler {
@@ -25,7 +30,7 @@ p {
   color: var(--secondary-color);
   font-size: 48px;
   font-weight: 900;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 .new-title {
